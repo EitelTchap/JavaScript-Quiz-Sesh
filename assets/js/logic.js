@@ -1,21 +1,3 @@
-//When pressing 'Start quiz', a timer starts from 100s to 0
-//First question appears with a list of choices to answer
-//When a choice is pressed
-    //If true then display message at bottom "Correct!" and move on to next question
-    //If false display message at bottom "Wrong!", Cut time by 10sec and move to next question
-//Repeat until last question or timer reaches 0
-    //All questions answered - Collect the time left which will be the final score.
-    //Timer reaches 0 - score is 0
-//Display message for final score
-//Collect user's initials for 
-
-//ids time (timer) - start-screen (1st screen) - start (starts quiz)
-// questions (question page) - question-title (Questions) - choices (answers)
-// end-screen (last screen) - final-score (score) - initials (user's initials max 3)
-// submit (send to localStorage) - feedback (Wrong! / Correct!) - highscores (highscore)
-
-//classes: .hide/.start (reveals or hide)
-
 // Get variables from HTML
 var timer = document.getElementById('time'); //Timer
 var timerText = document.getElementById('Bigtime'); //Timer text
@@ -33,14 +15,6 @@ var choices = document.getElementById('choices'); //Choices
 //Assign variables for audio files
 var correctsound = new Audio('./assets/sfx/correct.wav');
 var incorrectsound = new Audio('./assets/sfx/incorrect.wav');
-
-// //for questions.js
-// var questionsPagge = document.getElementById('questions'); //Question page
-// var questions = document.getElementById('question-title'); //Questions
-// var choices = document.getElementById('choices'); //Choices 
-
-// //for score.js
-// var highscores =document.getElementById('highscores');
 
 // Timer that counts down from 100s
 var timeLeft = 50;     //Set initial time to 100
@@ -62,8 +36,8 @@ function countdown() {
 var questionOutput = [];
 var answerChoices = [];
 var finalScore = null;
-//Define the quizz function
 
+//Define the quizz function
 function quizz() {
     // Initialise the question index
     let currentQuestionIndex = 0;

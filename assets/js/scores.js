@@ -1,6 +1,3 @@
-//This will store the scores and corresponding initials and interact with the 
-//highscore html for output and get some inputs from the main page.
-
 //Get variable from highscores.html
 var highscores = document.getElementById('highscores');
 var clear = document.getElementById('clear');
