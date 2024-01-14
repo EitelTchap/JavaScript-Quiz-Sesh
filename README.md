@@ -6,7 +6,7 @@ A quiz to test your JavaScript knowledge!
 
 This particular project is a website application that provides a quizz on JavaScript. The rules are simple... You have 50 seconds, answer questions correctly until the last one and total a final score that reflects the time you have left! Any wrong answer takes away 10 seconds from the clock, so beware! Check out how you are doing compared to other players in the highscore page.
 
-URL: https://eiteltchap.github.io/Javascript-Quiz-Sesh/
+URL: https://eiteltchap.github.io/JavaScript-Quiz-Sesh/
 
 ## Installation
 
