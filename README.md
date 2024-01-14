@@ -12,15 +12,21 @@ URL: https://eiteltchap.github.io/JavaScript-Quiz-Sesh/
 
 N/A
 
-
 ## Usage 
 
 To start the game, click on the "Start Quiz" button on the page. This will start the quiz as well as the timer.
 
+![Start-screen](./assets/Start-screen.png)
+
 Take the quiz and find out by the end your final score.
+
+![Quizz](./assets/Quizz.png)
 
 Enter your initials (up to 3 characters) and check out how you are placing in the highscore table.
 
+![Endscreen](./assets/Endscreen.png)
+
+![Highscore](./assets/Highscore.png)
 
 ## Credits
 
